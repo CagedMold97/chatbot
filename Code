@@ -1,0 +1,40 @@
+import random
+a = input("What is your favorite food?")
+b = random.randint(1,3)
+if b == 1:
+    print ("That sounds good!")
+elif b == 2:
+    print ("Ive never heard of that food before!")
+    
+else: 
+    print ("Thats a good food choice")
+c = input("What is your favorite drink?")
+d = random.randint(1,4)
+if d == 1:
+    print ("Thats a good Choice!")
+elif d == 2:
+    print ("i dont reconize that kinda drink")
+elif d == 3:
+    print ("I Love that drink may i reccomend something else thats similar to that!?")
+else:
+    print ("Interesting choice")
+
+e = input("What is your favorite city")
+f = random.randint (1,3)
+if f == 1:
+    print ("That City is a hidden gem!")
+elif f == 2:
+    print ("I have never heard of that city")
+else:
+    print ("i Love that city!")
+g = input("What is your favorite car")
+h = random.randint(1,3) 
+if h == 1:
+    print ("That car is Amazing!")
+elif h == 2:
+    print ("Ive never heard of that type of car.")
+else:
+    print ("I Love that car!")
+
+i = input("What is your favorite fruit")
+j = input ("the End") 
